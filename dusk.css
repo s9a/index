@@ -1,29 +1,34 @@
 ::selection {
-  background: hotpink;
+  background: #ee5;
   color: black;
 }
 
 :root {
-  background: #111;
-  color: #ddd;
+  background: #333;
+  color: #eee;
 }
 
 :link {
-  color: plum;
-  background: #100;
+  color: #111;
+  background: #bae;
 }
 
 :visited {
-  color: orchid;
-  background: #100;
+  color: #222;
+  background: #bae;
+}
+
+:focus {
+  outline-color: #bae;
 }
 
 :any-link:hover {
-  color: hotpink;
+  color: indigo;
+  background: pink;
   text-decoration-color: #e0e;
 }
 
 mark {
-  background: #e99;
-  color: #100;
+  background: hotpink;
+  color: #090909;
 }

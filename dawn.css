@@ -9,22 +9,25 @@
 }
 
 :link {
-  background: #eee;
-  color: blueviolet;
+  background: darkslateblue;
+  color: oldlace;
 }
 
 :visited {
-  background: #eee;
-  color: darkviolet;
+  background: blueviolet;
+  color: #eee;
+}
+
+:focus {
+  outline-color: #100;
 }
 
 :any-link:hover {
-  background: oldlace;
-  color: darkorchid;
-  text-decoration-color: darkslateblue;
+  background: darkviolet;
+  text-decoration-color: #100;
 }
 
 mark {
-  background: salmon;
+  background: hotpink;
   color: #100;
 }
